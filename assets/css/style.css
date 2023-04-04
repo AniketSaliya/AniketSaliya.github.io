@@ -240,6 +240,7 @@ h6 {
   top: 10px;
   z-index: 9998;
   border: 0;
+  color: #fff;
   background: #bb0505;
   font-size: 28px;
   transition: all 0.4s;
@@ -251,7 +252,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #0364c5;
+  color: #fff;
 }
 
 .mobile-nav-active {
@@ -263,7 +264,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #0364c5;
+  color: #fff;
   background-color: #bb0505;
 }
 
