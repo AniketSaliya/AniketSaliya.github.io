@@ -436,37 +436,24 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+.skill-item {
+  display: flex;
+  align-items: center;
+  color: #272829;
+  margin-bottom: 10px;
 }
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
+.skill-item i {
+  margin-right: 10px;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+.skill-item span {
+  flex-grow: 1;
 }
 
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #182430;
+.chevron-red {
+  color: red;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
